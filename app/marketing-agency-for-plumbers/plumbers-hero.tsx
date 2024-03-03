@@ -25,7 +25,7 @@ export default  function PlumberHero () {
       fill
         objectFit="cover"
        
-        className="w-full h-full  md:h-[400px]"
+        className="w-full h-full  md:h-[100vh]"
         alt="Gym hero image"
       />
       <div className="absolute inset-0 bg-black opacity-50"></div>

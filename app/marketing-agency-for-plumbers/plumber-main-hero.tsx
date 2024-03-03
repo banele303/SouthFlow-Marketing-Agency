@@ -15,7 +15,7 @@ function PlumbingHero() {
 
   return (
     <motion.div
-      className="relative w-full z-20 h-[60vh] md:h-[80vh]"
+      className="relative w-full z-20 h-[60vh] md:h-[100vh]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 1 }}
@@ -39,7 +39,7 @@ function PlumbingHero() {
         transition={{ duration: 2, spring: 250 }} // Replaced "spring" with "easeInOut"
         className="text-center text-white"
       >
-        <h1 className="text-2xl font-bold   text-center md:text-4xl lg:text-5xl">
+        <h1 className="text-2xl font-bold pt-[4rem]  text-center md:text-4xl lg:text-5xl">
           Your Best Plumbing Marketing agency <span className="text-blue-500">SouthFlow</span>
         </h1>
         <h2 className="text-xl   md:py-[1rem] text-center md:text-2xl lg:text-3xl">

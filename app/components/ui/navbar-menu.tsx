@@ -69,10 +69,10 @@ export const Menu = ({
 }) => {
   return (
     <section className="flex flex-row w-full ">
-      <p className="text-white text-center">Logo</p>
+     
       <nav
         onMouseLeave={() => setActive(null)} // resets the state
-        className="relative md:pr-[12rem] boder border-transparent bg-transparent shadow-input flex  w-full justify-end space-x-9 px-8 py-6 ">
+        className="relative md:pr-[12rem] boder text-white border-transparent bg-transparent shadow-input flex  w-full justify-end space-x-9 px-8 py-6 ">
  {children}
 
       </nav>

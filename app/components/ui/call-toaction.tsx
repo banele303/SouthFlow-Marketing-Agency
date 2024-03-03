@@ -6,7 +6,7 @@ import { cn } from "../utils/cn";
 
 export function BackgroundBoxesCallToAction() {
   return (
-    <div className="relative py-[3rem] max-w-7xl mx-auto overflow-hidden bg-slate-900 flex flex-col align-center items-center justify-center rounded-lg">
+    <div className="relative py-[3rem] w-full mx-auto overflow-hidden bg-slate-900 flex flex-col align-center items-center justify-center">
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
       <Boxes />
