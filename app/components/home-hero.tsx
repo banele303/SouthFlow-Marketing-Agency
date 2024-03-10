@@ -1,49 +1,33 @@
-"use client";
-import { motion } from "framer-motion";
-import React from "react";
-import { ImagesSlider } from "./ui/images-slider";
+import Image from "next/image";
+
+export default function HomeHero() {
+
+  return (
+    <div className="dark:bg-white bg-black  pt-[5rem] md:pt-[1px] dark:bg-dot-black/[0.2] bg-dot-white/[0.2] px-[2rem] ">
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-[8rem] md:pl-[3rem] md:h-[580px]">
+        <div>
+          <p className="font-Poppins text-xl md:text-2xl  text-white opacity-80 ">
+            Over 14,000 Homeowners Helped.
+          </p>
+
+          <h1 className="font-Poppins text-2xl md:text-5xl pt-[1rem] md:pt-[3rem] leading-9 text-white font-bold">
+            Get Full Service Plumbing <br />Help 24/7
+          </h1>
+
+          <p className="font-Poppins text-xl md:text-2xl pt-3 opacity-80  text-white font-semibold">
+            Don't Wait, Get Your Risk Free Estimate
+          </p>
 
 
-
-export function HomeHero() {
-    const images = [
-        "./herorooofer.png",
-        "./Medical spas.png",
-        "./heroplumber.png",
-    ];
-    return (
-        <ImagesSlider className="md:h-[35rem]" images={images}>
-            <motion.div
-                initial={{
-                    opacity: 0,
-                    y: -80,
-                }}
-                animate={{
-                    opacity: 1,
-                    y: 0,
-                }}
-                transition={{
-                    duration: 0.6,
-                }}
-                className="z-50 flex flex-col justify-center items-center"
-            >
-                <motion.h1 className="font-bold text-2xl md:text-5xl pb-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-                    Best Lead marketing agency In South Africa
-                </motion.h1>
-                <motion.h2 className="text-xl md:text-3xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 ">
-                    Performanced-Based lead Marketing Agency
-                </motion.h2>
-
-                <motion.h2 className="text-xl md:text-3xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-                    Pay for highly qualified Leads Only
-                </motion.h2>
-                <button className="bg-slate-800 mt-[3rem] no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+          <div className="flex flex-col justify-start mt-6 px-4 md:px-[4rem] ml-[-1rem] md:ml-[-4rem]">
+            <button className="bg-orange-500 no-underline group w-[16rem]   cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
               <span className="absolute inset-0 overflow-hidden rounded-full">
                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
               </span>
-              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-4 px-8 ring-1 ring-white/10 ">
-                <span className="text-[16px] mx-auto text-center">
-                  I WANT MORE LEADS
+              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600 py-4 px-4 ring-1 ring-white/10">
+                <span className="text-[19px] text-center pl-4">
+                  REQUEST SERVICE
                 </span>
                 <svg
                   fill="none"
@@ -54,17 +38,42 @@ export function HomeHero() {
                 >
                   <path
                     d="M10.75 8.75L14.25 12L10.75 15.25"
-                    stroke="currentColor"
+                    stroke="orange"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.5"
                   />
                 </svg>
               </div>
-              <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
+              <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-yellow-400/0 via-yellow-400/90 to-yellow-400/0 transition-opacity duration-500 group-hover:opacity-40" />
             </button>
+          </div>
+          <p className="font-Poppins text-xl md:text-2xl pt-8 opacity-80  text-white font-semibold">
+            24 Hours A Day. 7 Days A Week.
+          </p>
+        </div>
 
-            </motion.div>
-        </ImagesSlider>
-    );
+
+
+        <div>
+        <div
+        className="container mx-auto md:h-[500px] "
+      
+      >
+        <Image
+          src="/plumber/24h.png" // the image file should be in the public folder
+          alt="southflow marketing agency no contract no set up fee"
+          width={200} // the original image width
+          height={300} // the original image height
+          layout="responsive" // this will make the image responsive
+          
+          className="rounded-md max-h-[500px] max-w-[400px]" // this will reduce the image size and improve performance
+        />
+      </div>
+        </div>
+
+      </div>
+
+    </div>
+  )
 }

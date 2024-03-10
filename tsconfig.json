@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "tailwind.config.ts", "app/about-us"  ],
+, "tailwind.config.ts", "app/about-us", "app/our-plumbing-services"  ],
   "exclude": [
     "node_modules"
   ]

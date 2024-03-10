@@ -61,7 +61,7 @@ export default function RiskWeTake() {
         transition={{ duration: 3, spring: 250 }}
         className="text-center text-3xl md:text-3xl lg:text-3xl font-semibold text-blue-500"
       >
-        WE TAKE THE RISK OUT OF GETTING NEW CUSTOMERS ONLINE
+       QUALIFIED PLUMBER
       </motion.h2>
 
       {/* Single-Column Section with Cool Animation */}
@@ -71,7 +71,7 @@ export default function RiskWeTake() {
           transition={{ duration: 3, spring: 250 }}
           className="text-[20px] text-gray-600 mb-6"
         >
-          Get Quality Plumbing Leads Without All The Stress
+          Get Quality Plumbing Service
         </motion.p>
         <button className="bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
           <span className="absolute inset-0 overflow-hidden rounded-full">
@@ -79,7 +79,7 @@ export default function RiskWeTake() {
           </span>
           <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-4 px-4 ring-1 ring-white/10 ">
             <span className="text-[16px] mx-auto text-center">
-              Schedule 30 min Free Call
+             get A free Quote
             </span>
             <svg
               fill="none"
@@ -102,7 +102,7 @@ export default function RiskWeTake() {
       </motion.div>
 
       {/* Three-Part Section with Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
         {/* Part 1: Feature 1 */}
         <motion.div
           variants={textVariants}
@@ -110,25 +110,25 @@ export default function RiskWeTake() {
           className="text-center"
         >
           <motion.div
-            className="container mx-auto h-[200px] w-[200px]"
+            className="container mx-auto h-[100px] w-[100px] mb-[7rem]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <Image
-              src="/about/no-setupfee.png" // the image file should be in the public folder
+              src="/about/tap.png" // the image file should be in the public folder
               alt="southflow marketing agency no contract no set up fee"
-              width={300} // the original image width
-              height={400} // the original image height
+              width={100} // the original image width
+              height={100} // the original image height
               layout="responsive" // this will make the image responsive
               quality={75} // this will reduce the image size and improve performance
             />
           </motion.div>
           <h3 className="text-lg font-bold text-gray-800 mt-[-4rem] mb-2">
-          No Set-Up Fees
+         Get A free quote
           </h3>
           <p className="text-gray-600 text-[17px]">
-           Sign Up with Us and only pay for valid Plumbing Leads.
+           Fill the form and tell us more about your services and then will send you a free quote
           </p>
         </motion.div>
 
@@ -136,28 +136,28 @@ export default function RiskWeTake() {
         <motion.div
           variants={textVariants}
           transition={{ duration: 2, spring: 250 }}
-          className="text-center"
+          className="text-center "
         >
           <motion.div
-            className="container mx-auto h-[200px] w-[200px]"
+            className="container mx-auto h-[100px] w-[100px] mb-[7rem]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <Image
-              src="/about/no-upfrontfee.png" // the image file should be in the public folder
+              src="/about/cropper.png" // the image file should be in the public folder
               alt="southflow marketing agency you control your cost"
-              width={300} // the original image width
-              height={400} // the original image height
+              width={100} // the original image width
+              height={100} // the original image height
               layout="responsive" // this will make the image responsive
-              quality={75} // this will reduce the image size and improve performance
+              quality={95} // this will reduce the image size and improve performance
             />
           </motion.div>
           <h3 className="text-lg font-bold text-gray-800 mt-[-4rem] mb-2">
-          You Control The Cost
+          Professional Plumbers
           </h3>
           <p className="text-gray-600 text-[17px]">
-          Choose your Lead Price based on the value you see and the amount of Leads you want.
+          We have reliable top notch qualified plumbers for alll your plumbing neeeds around Gauteng
           </p>
         </motion.div>
 
@@ -183,10 +183,10 @@ export default function RiskWeTake() {
             />
           </motion.div>
           <h3 className="text-lg font-bold text-gray-800 mt-[-4rem] mb-2">
-          You Control The Cost
+          Reduce your Electricty Bill
           </h3>
           <p className="text-gray-600 text-[17px]">
-          There is no term contract so if you aren’t seeing results you can cancel at any time.
+       By installing solar geyser you will reduce your electricity billl by 38%
           </p>
         </motion.div>
 

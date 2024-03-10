@@ -1,23 +1,27 @@
 import { Navbar } from "../components/ui/Navbar";
-import { Stages } from "../components/ui/stages";
+import Footer from "../our-plumbing-services/ui/footer";
+import CustomerSetisfication from "../our-plumbing-services/we-strive-satifaction";
 import AboutHero from "./aboutus-hero";
 import AboutUswelcome from "./aboutus-welcome";
-import CheckLeads from "./check-leads";
+import AllServices from "./all-services";
+import OwnerInfor from "./owner-info";
 import RiskWeTake from "./risk-wetake";
-import SertifiedBY from "./ui/sertified-by";
+
 
 
 export default function AboutUs() {
-    return (
-     <>
-    <Navbar/>
-   
-    <AboutHero/>
-    <Stages/>
-    <RiskWeTake/>
-    <AboutUswelcome/>
-    <CheckLeads/>
-    <SertifiedBY/>
-     </>
-    );
-  }
+  return (
+    <>
+      <Navbar />
+
+      <AboutHero />
+
+      <RiskWeTake />
+      <OwnerInfor />
+      <AboutUswelcome />
+      <AllServices />
+      <CustomerSetisfication />
+      <Footer />
+    </>
+  );
+}

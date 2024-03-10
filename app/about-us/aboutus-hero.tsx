@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { cn } from "../components/utils/cn";
+import { ButtonCallToAction } from "../components/ui/button-call-to-action";
 
 export default function AboutHero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +17,7 @@ export default function AboutHero() {
 
   return (
     <motion.div
-      className="w-full  bg-neutral-950 relative  flex flex-col items-center justify-center antialiased relative w-full z-20 h-[60vh] md:h-[90vh]"
+      className="w-full  bg-neutral-950 relative  flex flex-col items-center justify-center antialiased relative w-full z-20 h-[50vh] md:h-[60vh]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 1 }}
@@ -31,41 +32,18 @@ export default function AboutHero() {
           opacity: isVisible ? 1 : 0,
         }}
         transition={{ duration: 2, spring: 250 }} // Replaced "spring" with "easeInOut"
-        className="text-center text-white mt-[-24rem]"
+        className="text-white mt-[-17rem] "
       >
         <h1 className="text-3xl font-bold   md:pb-[2rem] text-center md:text-5xl lg:text-4xl">
-          We are the best Pay Per Leads  <span className="text-blue-500">Marketing Agency</span>
+          Gotcha <span className="text-blue-500">Plumbers</span>
         </h1>
         <motion.h2 className="text-xl md:text-3xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 ">
-                    Performanced-Based lead Marketing Agency
+                    Best Plumbing company
                 </motion.h2>
 
-                <motion.h2 className="text-xl md:text-3xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-                Pay Per Calls You Get
-                </motion.h2>
+               
       </motion.div>
-      <motion.div
-        initial={{ y: -200, opacity: 0 }}
-        animate={{
-          y: 200,
-          opacity: isVisible ? 1 : 0,
-        }}
-        transition={{ duration: 2, spring: 250 }} // Replaced "spring" with "easeInOut"
-        className="flex justify-center space-x-4 mt-3 md:mt-4 lg:space-x-8"
-      >
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          className=" px-5 md:px-10 py-4 bg-blue-800 text-white text-[14px] font-bold rounded-sm shadow-md hover:bg-blue-600"
-        >
-          <Link href="/contact-us">JOIN NOW</Link>
-        </motion.button>
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          className="px-4 md:px-10 py-4 bg-gray-800 text-[14px] font-bold text-white rounded-sm shadow-md hover:bg-gray-900"
-        >
-          <Link href="/contact-us">CONTACT US</Link>
-        </motion.button>
-      </motion.div>
+     
       <BackgroundBeams />
     </motion.div>
   );
