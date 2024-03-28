@@ -46,14 +46,14 @@ const CARDS = [
     designation: "Home Owner",
     content: (
       <p>
-        Outstanding service! Gotcha plumbing delivered exceptionally neat work. Highly recommend for
+        Outstanding service! Burgeon plumbing delivered exceptionally neat work. Highly recommend for
         their professionalism and top-notch results. Five stars!
       </p>
     ),
   },
   {
     id: 1,
-    name: "bernardt oschman",
+    name: "John oschman",
     designation: "Home Owner",
     content: (
       <p className="text-slate-400">
@@ -70,7 +70,7 @@ const CARDS = [
     designation: "Home Owner",
     content: (
       <p>
-     We have had the good fortune to use the services of Gotcha Plumbing three times during the last month, each time for another plumbing issue.
+     We have had the good fortune to use the services of Burgeon Plumbing three times during the last month, each time for another plumbing issue.
 The company is responsive and responsible and also provides an excellent service at a fair tariff, which is hard to find these days.  
 
       </p>
