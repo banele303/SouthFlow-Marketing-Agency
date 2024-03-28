@@ -10,7 +10,7 @@ export default function CustomerSetisfication() {
     return (
         <div className="px-[2rem] py-[3rem]">
             <h3 className="font-Poppins text-center text-2xl md:text-3xl pt-[1rem] leading-9 text-slate-900 md:px-[6rem]">
-                We Strive For Customers' Satisfaction
+                We Strive For Customer&apos;s Satisfaction
             </h3>
 
             <p className="text-slate-700 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9 md:px-[5rem]">
