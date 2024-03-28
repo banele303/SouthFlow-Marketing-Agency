@@ -38,13 +38,13 @@ export default function AllServices() {
                         Elite Emergency Plumbers
                     </h3>
                     <p className="text-slate-300 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
-                        When you require emergency services, it's crucial to ensure that the emergency plumber you call is
+                        When you require emergency services, it&apos;s crucial to ensure that the emergency plumber you call is
 
                         capable of handling the task. Our extensive experience in assisting distressed customers equips us to manage plumbing emergencies effectively. We swiftly diagnose issues and possess the necessary tools and expertise to promptly address your problems.
                         <br />
 
-                        To prevent additional damage and costly repairs, it's essential to
-                        address plumbing emergencies promptly. Whether it's a gas leak or an
+                        To prevent additional damage and costly repairs, it&apos;s essential to
+                        address plumbing emergencies promptly. Whether it&apos;s a gas leak or an
                         overflowing toilet, our Elite Emergency Plumbers can efficiently and safely
                         resolve the issue, minimizing any further harm. 🛠️💧
                     </p>
@@ -71,12 +71,12 @@ export default function AllServices() {
                     Geyser Installation & Repair
                     </h3>
                     <p className="text-slate-300 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
-                    There's nothing quite like the peace of mind that comes with knowing you have a reliable and efficient geyser in your home. But when things go wrong, it can be a real headache. That's where I come in! 
+                    There&apos;s nothing quite like the peace of mind that comes with knowing you have a reliable and efficient geyser in your home. But when things go wrong, it can be a real headache. That's where I come in! 
 
-Whether you're dealing with the aftermath of a burst geyser or struggling with inconsistent water temperatures, I'm here to help. With my expertise and quick response time, I can remove your old geyser and install a brand new one, ensuring you have access to hot water when you need it. 
+Whether you&apos;re dealing with the aftermath of a burst geyser or struggling with inconsistent water temperatures, I&apos;m here to help. With my expertise and quick response time, I can remove your old geyser and install a brand new one, ensuring you have access to hot water when you need it. 
 <br/>
 
-But my services don't stop there. I also offer routine maintenance and checks to ensure your geyser is running at its best. This includes adjusting the temperature settings to suit your needs, checking for any potential issues, and making necessary repairs before they become major problems. 
+But my services don&apos;t stop there. I also offer routine maintenance and checks to ensure your geyser is running at its best. This includes adjusting the temperature settings to suit your needs, checking for any potential issues, and making necessary repairs before they become major problems. 
 
 So why wait? Give me a call today and let me take the stress out of your geyser troubles. With my help, you can rest easy knowing your geyser is in good hands.🛠️💧
                     </p>
