@@ -71,7 +71,7 @@ export default function AllServices() {
                     Geyser Installation & Repair
                     </h3>
                     <p className="text-slate-300 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
-                    There&apos;s nothing quite like the peace of mind that comes with knowing you have a reliable and efficient geyser in your home. But when things go wrong, it can be a real headache. That's where I come in! 
+                    There&apos;s nothing quite like the peace of mind that comes with knowing you have a reliable and efficient geyser in your home. But when things go wrong, it can be a real headache. That&apos;s where I come in! 
 
 Whether you&apos;re dealing with the aftermath of a burst geyser or struggling with inconsistent water temperatures, I&apos;m here to help. With my expertise and quick response time, I can remove your old geyser and install a brand new one, ensuring you have access to hot water when you need it. 
 <br/>
