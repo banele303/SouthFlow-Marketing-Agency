@@ -18,7 +18,7 @@ export function BookCallAppointment() {
   return (
     <div className="max-w-md w-full mx-auto  rounded-2xl mt-[4rem] md:p-8 shadow-input bg-black dark:bg-white py-8 px-5">
       <h2 className="font-bold text-xl text-slate-300 dark:text-neutral-200">
-        Welcome to Gotcha Plumbing
+        Welcome to Burgeon Plumbing
       </h2>
       <p className="text-slate-300 text-sm max-w-sm mt-2 dark:text-neutral-300">
         Tell us more about what you are looking for
