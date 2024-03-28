@@ -40,7 +40,7 @@ function PlumbingHero() {
         className="text-center text-white"
       >
         <h1 className="text-2xl font-bold pt-[8rem]  text-center md:text-4xl lg:text-5xl">
-          Your Best Plumbing Company <span className="text-blue-500">Gotcha Plumbing</span>
+          Your Best Plumbing Company <span className="text-blue-500">Burgeon Plumbing</span>
         </h1>
      
       </motion.div>
