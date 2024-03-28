@@ -16,7 +16,7 @@ export default function HomeHero() {
           </h1>
 
           <p className="font-Poppins text-xl md:text-2xl pt-3 opacity-80  text-white font-semibold">
-            Don't Wait, Get Your Risk Free Estimate
+            Don&apos;t Wait, Get Your Risk Free Estimate
           </p>
 
 
