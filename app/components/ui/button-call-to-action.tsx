@@ -14,7 +14,7 @@ export function ButtonCallToAction() {
               </span>
               <div className="relative flex space-x-2 items-center z-10 rounded-full bg-orange-600 py-4 px-4 ring-1 ring-white/10">
                 <span className="text-[17px] text-center">
-                  CALL NOW :+27 87 555  6543
+                  CALL NOW : 082 502 7833
                 </span>
                 <svg
                   fill="none"
