@@ -11,16 +11,16 @@ export default function OwnerInfor() {
 
             <div className="mt-[4rem]">
                 <h3 className="font-Poppins text-2xl md:text-3xl pt-[1rem] leading-9 text-white">
-                    Walter Owner of Gotcha Plumbing
+                    Ferdi Owner of Burgeon  Plumbing
                 </h3>
                 <p className="text-slate-300 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
 
-                    My name is Walter Pullen and I’ve been providing my services for almost 9 years, and in those years I’ve seen it all. From minor leaks to major mishaps in both residential and commercial properties, I can fix all your plumbing problems and more!
+                    My name is Ferdi and I&apos;ve been providing my services for almost 9 years, and in those years I’ve seen it all. From minor leaks to major mishaps in both residential and commercial properties, I can fix all your plumbing problems and more!
 
 
                     <br />
                     <br />
-                    Gotcha Plumbing and Leak Detection is a full-service professional plumbing service. I've created longstanding, trusting relationships with clients throughout South Africa.
+                    Burgeon  Plumbing is a full-service professional plumbing service. I've created longstanding, trusting relationships with clients throughout South Africa.
 
                     🛠️💧
                 </p>
@@ -32,12 +32,12 @@ export default function OwnerInfor() {
                 transition={{ duration: 1 }}
             >
                 <Image
-                    src="/heroplumber.png" // the image file should be in the public folder
+                    src="/owner-image.png" // the image file should be in the public folder
                     alt="southflow marketing agency no contract no set up fee"
                     width={300} // the original image width
                     height={400} // the original image height
                     layout="responsive" // this will make the image responsive
-                    quality={95}
+                    quality={100}
                     className="rounded-md " // this will reduce the image size and improve performance
                 />
             </motion.div>
