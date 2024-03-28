@@ -5,7 +5,7 @@ export default function AboutUswelcome() {
     <div className="dark:bg-white bg-black  dark:bg-dot-black/[0.2] bg-dot-white/[0.2] px-[2rem] md:px-[8rem]">
       <div className="w-full h-[280px]  md:h-[400px] rounded-b-[10%]">
         <h3 className="text-center font-Poppins text-2xl md:text-5xl pt-[-8rem] md:pt-[8rem] leading-9 text-white font-bold">
-          More than just a Elite Plumber - Gotcha Plumbing
+          More than just a Elite Plumber - Burgeon Plumbing
         </h3>
       </div>
 
@@ -49,14 +49,14 @@ export default function AboutUswelcome() {
 
 
         <h2 className="font-Poppins text-xl md:text-[35px] pt-[2rem] text-white font-bold">
-        All Gotcha Plumbers are Qualified and the best at what <br/><br/> they do.
+        All Burgeon Plumbers are Qualified and the best at what <br/><br/> they do.
         </h2>
 
         <p className="font-Poppins text-xl md:text-xl pt-[2rem] text-slate-400 ">
-        Elite Plumbers offers an extensive array of Plumbing Services in Elite. If you&apos;re in search of the most affordable plumber in Elite, your search ends here.
+        Burgeon Plumbers offers an extensive array of Plumbing Services in Elite. If you&apos;re in search of the most affordable plumber in Elite, your search ends here.
         <br />
           <br />
-Elite Plumbers operates around the clock to ensure all your plumbing requirements are met. We provide a wide range of plumbing services.
+Burgeon Plumbers operates around the clock to ensure all your plumbing requirements are met. We provide a wide range of plumbing services.
 
 Whether it&apos;s Plumbing Repairs or Plumbing Installations in Elite, we&apos;re always ready to assist, regardless of the time of day. Whenever you need a plumber in Elite, we always have a Plumber on standby.
 <br />
