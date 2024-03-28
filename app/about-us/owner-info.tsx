@@ -20,7 +20,7 @@ export default function OwnerInfor() {
 
                     <br />
                     <br />
-                    Burgeon  Plumbing is a full-service professional plumbing service. I've created longstanding, trusting relationships with clients throughout South Africa.
+                    Burgeon  Plumbing is a full-service professional plumbing service. I&apos;ve created longstanding, trusting relationships with clients throughout South Africa.
 
                     🛠️💧
                 </p>
