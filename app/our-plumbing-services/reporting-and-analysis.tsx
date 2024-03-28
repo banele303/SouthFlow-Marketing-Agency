@@ -62,7 +62,7 @@ With our advanced dashboard, you can easily monitor critical metrics such as lea
                 </svg>
               </div>
               <span className=" px-3 mt-[-.4rem] text-slate-300 text-[17px] pt-2">
-        STEP 3 : Know what's working and what's not
+        STEP 3 : Know what&apos;s working and what&apos;s not
               </span>
             </div>
           </li>
