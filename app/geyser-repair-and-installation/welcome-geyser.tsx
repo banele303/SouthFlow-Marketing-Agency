@@ -116,7 +116,7 @@ export default function WelcomeGeyser() {
 
                             <br />
                             <br />
-                            Our skilled team can assess what&apos;s best for your property and deliver prompt service, allowing you to resume your daily routine. We provide a broad array of top-notch geysers, designed to accommodate various homes and lifestyles. Your part is simply to choose one, and we can have it delivered and installed at your place within the day."
+                            Our skilled team can assess what&apos;s best for your property and deliver prompt service, allowing you to resume your daily routine. We provide a broad array of top-notch geysers, designed to accommodate various homes and lifestyles. Your part is simply to choose one, and we can have it delivered and installed at your place within the day.
 
                         </p>
 
