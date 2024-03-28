@@ -9,7 +9,7 @@ export default function AllServices() {
     return (
         <div className="dark:bg-white bg-black  dark:bg-dot-black/[0.2] bg-dot-white/[0.2] px-[2rem] md:px-[4rem]">
             <h3 className="text-center font-Poppins text-2xl md:text-5xl pt-[8rem] leading-9 text-white font-bold">
-                Gotcha Plumbing Services
+                Burgeon Plumbing Services
             </h3>
            
            
@@ -35,7 +35,7 @@ export default function AllServices() {
                 </motion.div>
                  <div className="mt-[-9rem] md:mt-[4rem]">
                     <h3 className="font-Poppins text-2xl md:text-3xl pt-[1rem] leading-9 text-white">
-                        Elite Emergency Plumbers
+                        Burgeon Emergency Plumbers
                     </h3>
                     <p className="text-slate-300 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
                         When you require emergency services, it&apos;s crucial to ensure that the emergency plumber you call is
