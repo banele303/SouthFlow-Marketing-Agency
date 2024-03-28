@@ -20,11 +20,14 @@ export default function Home() {
       <Navbar/>
       <HomeHero/>
       <Welcome/>
-      <ContactInfo/>
+    <div className="bg-white">
+        <ContactInfo/>
       <RiskWeTake/>
       <TypeOfWork/>
      <AllServices/>
      <TestimonialSection/>
+    </div>
+  
     
      <Footer/>
     
