@@ -26,9 +26,9 @@ export default function CustomerSetisfication() {
                     </h3>
 
                     <p className="text-slate-700 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
-Gotcha Plumbing is a locally owned and operated plumbing business in the Pretoria, Sandton and Johanesburg North. It started as a dependable, reliable and friendly way to get your service work done.
+Burgeon Plumbing is a locally owned and operated plumbing business in the Pretoria, Sandton and Johanesburg North. It started as a dependable, reliable and friendly way to get your service work done.
                         <br />
-                        That’s our approach to an industry leading plumbing service.  <br/><br/>
+                        That&apos;s our approach to an industry leading plumbing service.  <br/><br/>
                          🛠️💧
                     </p>
 <div className="max-w-[22rem]">
