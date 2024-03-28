@@ -35,7 +35,7 @@ export default function AboutHero() {
         className="text-white mt-[-17rem] "
       >
         <h1 className="text-3xl font-bold   md:pb-[2rem] text-center md:text-5xl lg:text-4xl">
-          Gotcha <span className="text-blue-500">Plumbers</span>
+          Burgeon <span className="text-blue-500">Plumbing</span>
         </h1>
         <motion.h2 className="text-xl md:text-3xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 ">
                     Best Plumbing company
