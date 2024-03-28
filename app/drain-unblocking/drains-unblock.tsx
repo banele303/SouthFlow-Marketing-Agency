@@ -68,8 +68,8 @@ Common Causes of Drainage Problems
                 </h3>
 
                 <p className="text-slate-400 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
-                "After determining the underlying issue of a clogged drain pipe, your neighborhood drain unblocking plumber will recommend the most effective solution for drain clearance. Utilizing cutting-edge technology, our expertly trained drain unblocking professionals are available 24/7 for emergency services or scheduled visits. We assure you that our drain cleaning 
-                service has the expertise to resolve any issue you may encounter."
+                After determining the underlying issue of a clogged drain pipe, your neighborhood drain unblocking plumber will recommend the most effective solution for drain clearance. Utilizing cutting-edge technology, our expertly trained drain unblocking professionals are available 24/7 for emergency services or scheduled visits. We assure you that our drain cleaning 
+                service has the expertise to resolve any issue you may encounter.
                    
                 </p>
 
@@ -99,7 +99,7 @@ Our community drain unblocker and drain clearance experts are available around t
                             Have a Burst Geyser? Contact the Geyser Experts Now!
                         </h3>
                         <p className="text-slate-800 mt-[1rem]  md:text-[17px] px-[.5rem] pb-[2rem]  leading-9">
-                            When you least expect it, a **burst geyser** can catch you off guard, often striking when you're fast asleep. Without proper maintenance and care, your geyser becomes a ticking time bomb, ready to disrupt your rest.
+                            When you least expect it, a **burst geyser** can catch you off guard, often striking when you&apos;re fast asleep. Without proper maintenance and care, your geyser becomes a ticking time bomb, ready to disrupt your rest.
 
 
                             <br />
@@ -109,12 +109,12 @@ Our community drain unblocker and drain clearance experts are available around t
 
                             <br />
                             <br />
-                            To prevent a geyser burst and the consequent damage to your home, consider having a professional qualified plumber service your geyser at least every three to four years. All you need to do is **contact The Geyser Connection**, and we'll handle all the technical aspects you'd rather not deal with. That&apos;s what we&apos;re here for! 🛠️🔧¹.
+                            To prevent a geyser burst and the consequent damage to your home, consider having a professional qualified plumber service your geyser at least every three to four years. All you need to do is **contact The Geyser Connection**, and we&apos;ll handle all the technical aspects you&apos;d rather not deal with. That&apos;s what we&apos;re here for! 🛠️🔧¹.
 
 
                             <br />
                             <br />
-                            Our skilled team can assess what's best for your property and deliver prompt service, allowing you to resume your daily routine. We provide a broad array of top-notch geysers, designed to accommodate various homes and lifestyles. Your part is simply to choose one, and we can have it delivered and installed at your place within the day."
+                            Our skilled team can assess what&apos;s best for your property and deliver prompt service, allowing you to resume your daily routine. We provide a broad array of top-notch geysers, designed to accommodate various homes and lifestyles. Your part is simply to choose one, and we can have it delivered and installed at your place within the day.
 
                         </p>
 
