@@ -15,12 +15,14 @@ export default function AboutUs() {
       <Navbar />
 
       <AboutHero />
-
-      <RiskWeTake />
+<div className="bg-white">
+     <RiskWeTake />
       <OwnerInfor />
       <AboutUswelcome />
       <AllServices />
       <CustomerSetisfication />
+    </div>
+     
       <Footer />
     </>
   );
